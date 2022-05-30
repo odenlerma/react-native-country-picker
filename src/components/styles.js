@@ -11,11 +11,11 @@ export const getStyles = (darkTheme = true) => {
     const styles = StyleSheet.create({
         container: {
             paddingTop: getStatusBarHeight(),
-            backgroundColor: Colors.backgroundModal,
+            backgroundColor: '#EBF3FA',
             height: Styles.window.height
         },
         listContainer: {
-            backgroundColor: Colors.backgroundModal,
+            backgroundColor: '#EBF3FA',
         },
         title: {
             fontSize: 18,
@@ -52,7 +52,7 @@ export const getStyles = (darkTheme = true) => {
         },
         search: {
             ...Styles.justifyCenter,
-            height: 40,
+            //height: 40,
             paddingHorizontal: 20,
         },
         textInputContainer: {
